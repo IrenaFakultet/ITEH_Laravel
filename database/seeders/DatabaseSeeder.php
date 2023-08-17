@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         Owner::truncate();
         Bicycle::truncate();
 
-        User::factory(10)->create();
+        User::factory(100)->create();
 
         Manufacturer::insert([
             [

@@ -22,7 +22,6 @@ class BicycleResource extends JsonResource
             'description' => $this->resource->description,
             'color' => $this->resource->color,
             'price' => $this->resource->price,
-            'horsepower' => $this->resource->horsepower,
             'manufacturer' => $this->resource->manufacturer,
             'owner' => new OwnerResource($this->resource->owner)
         ];
